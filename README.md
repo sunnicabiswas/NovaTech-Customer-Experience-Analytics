@@ -96,42 +96,29 @@ This Business Intelligence solution was designed to answer critical operational 
 
 # 🏗️ Project Architecture
 
-The project follows a complete Business Intelligence workflow:
+```mermaid
+flowchart LR
+    A[Business Problem<br/>and Requirements]
+    B[Python Synthetic<br/>Data Generation]
+    C[Excel Validation<br/>and Data Preparation]
+    D[Power BI Data<br/>Transformation]
+    E[Star Schema<br/>Data Modeling]
+    F[DAX Measures<br/>and KPI Development]
+    G[Four Interactive<br/>Power BI Dashboards]
+    H[Business Insights<br/>and Recommendations]
+    I[GitHub Portfolio<br/>and Documentation]
 
-Business Understanding
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
+```
 
-↓
-
-Business Requirements & KPI Definition
-
-↓
-
-Synthetic Data Generation (Python)
-
-↓
-
-Data Cleaning & Validation
-
-↓
-
-Star Schema Data Modeling
-
-↓
-
-DAX Measure Development
-
-↓
-
-Interactive Power BI Dashboards
-
-↓
-
-Business Insights & Recommendations
-
-↓
-
-Executive Reporting
----
+The solution follows an end-to-end analytics workflow, beginning with business requirements and progressing through synthetic data generation, validation, modeling, KPI development, dashboard creation, and strategic reporting.
 
 # 📈 Dashboard Overview
 
