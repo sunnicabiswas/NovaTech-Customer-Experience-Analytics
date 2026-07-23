@@ -120,6 +120,23 @@ flowchart LR
 
 The solution follows an end-to-end analytics workflow, beginning with business requirements and progressing through synthetic data generation, validation, modeling, KPI development, dashboard creation, and strategic reporting.
 
+---
+
+# 🗂️ Data Model
+
+The solution uses a star-schema-oriented relational model centered on support-ticket activity, customer interactions, and customer subscriptions.
+
+![NovaTech Data Model](08_Documentation/NovaTech_Data_Model.svg)
+
+### Modeling Approach
+
+- `tbl_Support_Tickets` serves as the primary fact table.
+- Customer, product, agent, department, region, issue-category, and priority tables act as dimensions.
+- `tbl_Interaction_History` supports interaction-channel and agent-engagement analysis.
+- `tbl_Customer_Subscriptions` connects customers with subscribed products.
+- One-to-many relationships and single-direction filtering were used to reduce ambiguity.
+- `tbl_SLA_Rules` remains disconnected because no corresponding SLA key exists in the ticket table.
+
 # 📈 Dashboard Overview
 
 The project consists of four interactive dashboards designed for different business stakeholders.
