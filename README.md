@@ -166,3 +166,4 @@ Analyzes customer behavior, acquisition trends, customer segments, interaction p
 Identifies product-level operational risks by analyzing escalations, ticket reopen rates, SLA compliance, issue categories, and service quality.
 
 *(Dashboard screenshot will be added here.)*
+
