@@ -124,75 +124,88 @@ The solution follows an end-to-end analytics workflow, beginning with business r
 
 The project consists of four interactive dashboards designed for different business stakeholders.
 
+---
+
 ## 📊 Dashboard 1 – Executive Overview
+
+![Dashboard 1 – Executive Overview](06_Dashboard_Screenshots/Dashboard_1_Executive_Overview.png)
 
 ### 🎯 Purpose
 
-Provides executive leadership with a comprehensive view of customer support operations, enabling real-time monitoring of service performance, customer satisfaction, and operational efficiency.
+Provides executive leadership with a comprehensive view of customer support operations, enabling monitoring of service performance, customer satisfaction, ticket trends, and operational efficiency.
 
 ### 📌 Key KPIs
 
 - Total Customers
 - Total Support Tickets
-- SLA Compliance
-- Customer Satisfaction (CSAT)
+- Total Interactions
+- Average CSAT
+- SLA Compliance %
+- First Contact Resolution %
+- Average Response Time
 - Average Resolution Time
-- First Contact Resolution
 
-### 📈 Business Value
+### 💼 Business Value
 
-This dashboard helps leadership monitor operational performance, identify emerging support trends, and quickly detect service bottlenecks requiring attention.
+Helps leadership identify emerging support trends, monitor service-quality performance, and detect operational bottlenecks requiring intervention.
 
-![Dashboard 1](06_Dashboard_Screenshots/Dashboard_1_Executive_Overview.png)
+---
 
-## 👨‍💼 Dashboard 2 – Operational Performance Analysis
+## 👥 Dashboard 2 – Operational Performance Analysis
+
+![Dashboard 2 – Operational Performance](06_Dashboard_Screenshots/Dashboard_2_Operational_Performance.png)
 
 ### 🎯 Purpose
 
-Evaluates support team productivity by measuring agent performance, response efficiency, resolution effectiveness, and customer satisfaction.
+Evaluates support-agent productivity, response efficiency, resolution performance, SLA adherence, and customer satisfaction.
 
 ### 📌 Key KPIs
 
+- Total Agents
 - Average Tickets per Agent
+- Average CSAT
+- Average First Response Time
+- Tickets Resolved
 - Average Resolution Time
-- First Response Time
-- SLA Compliance
-- Customer Satisfaction (CSAT)
+- SLA Compliance %
 
-### 📈 Business Value
+### 💼 Business Value
 
-Enables managers to identify top-performing agents, optimize workload distribution, and improve operational efficiency through data-driven performance monitoring.
-
-![Dashboard 2](06_Dashboard_Screenshots/Dashboard_2_Operational_Performance.png)
+Enables managers to identify top-performing agents, balance workloads, recognize coaching needs, and improve team-level operational efficiency.
 
 ---
 
 ## 😊 Dashboard 3 – Customer Insights & Satisfaction
 
+![Dashboard 3 – Customer Insights](06_Dashboard_Screenshots/Dashboard_3_Customer_Insights.png)
+
 ### 🎯 Purpose
 
-Analyzes customer behavior, interaction patterns, customer segmentation, acquisition trends, and overall satisfaction levels.
+Analyzes customer segments, industries, acquisition trends, support demand, interaction patterns, and service-quality outcomes.
 
 ### 📌 Key KPIs
 
 - Open Tickets
-- Escalation Rate
-- Reopened Tickets
+- Escalation %
+- Reopened %
 - Interactions per Ticket
+- Customers by Industry
+- Tickets by Customer Type
+- Customer Acquisition Trend
 
-### 📈 Business Value
+### 💼 Business Value
 
-Supports customer-centric decision-making by identifying high-demand customer segments, improving engagement strategies, and monitoring satisfaction trends.
-
-![Dashboard 3](06_Dashboard_Screenshots/Dashboard_3_Customer_Insights.png)
+Supports customer-centric decision-making by identifying high-demand segments, engagement patterns, and customer groups requiring additional attention.
 
 ---
 
 ## 🚀 Dashboard 4 – Product Quality & Strategic Insights
 
+![Dashboard 4 – Product Quality and Strategic Insights](06_Dashboard_Screenshots/Dashboard_4_Product_Quality_Strategic_Insights.png)
+
 ### 🎯 Purpose
 
-Evaluates product performance by analyzing service quality, ticket escalations, SLA compliance, reopen rates, and issue category trends.
+Evaluates product-level service quality by analyzing critical tickets, escalations, reopen rates, SLA compliance, resolution time, customer satisfaction, and recurring issue categories.
 
 ### 📌 Key KPIs
 
@@ -201,13 +214,15 @@ Evaluates product performance by analyzing service quality, ticket escalations, 
 - Reopened Tickets
 - Reopen Rate
 - Product-wise SLA Compliance
-- Product-wise CSAT
+- Product-wise Escalation %
+- Product-wise Reopened %
+- Average Resolution Time
+- Average CSAT
 
-### 📈 Business Value
+### 💼 Business Value
 
-Helps leadership identify high-risk products, prioritize quality improvements, reduce customer escalations, and strengthen long-term product reliability.
+Helps leadership identify high-risk products, prioritize corrective actions, reduce recurring service failures, and strengthen product reliability.
 
-![Dashboard 4](06_Dashboard_Screenshots/Dashboard_4_Product_Quality_Strategic_Insights.png)
 ---
 
 # 📌 Key Performance Indicators
@@ -265,5 +280,82 @@ Helps leadership identify high-risk products, prioritize quality improvements, r
 
 8. **Establish continuous product-quality reviews**  
    Share product-level ticket, escalation, and reopen trends with engineering and product-management teams through recurring service-quality reviews.
+---
 
+# 📁 Repository Structure
+
+```text
+NovaTech-Customer-Experience-Analytics/
+│
+├── README.md
+├── 01_Project_Overview/
+├── 02_Dataset/
+├── 03_SQL/
+├── 04_Python/
+│   ├── 01_Scripts/
+│   └── 03_Datasets/
+├── 05_PowerBI/
+│   ├── NovaTech_Customer_Experience_Dashboard.pbix
+│   └── NovaTech_Customer_Experience_Analytics_Dashboard.pdf
+├── 06_Dashboard_Screenshots/
+│   ├── Dashboard_1_Executive_Overview.png
+│   ├── Dashboard_2_Operational_Performance.png
+│   ├── Dashboard_3_Customer_Insights.png
+│   └── Dashboard_4_Product_Quality_Strategic_Insights.png
+├── 07_Presentation/
+└── 08_Documentation/
+
+# 🧠 Skills Demonstrated
+
+## Business Analysis
+
+- Business problem definition
+- Stakeholder-focused KPI selection
+- Business requirements documentation
+- Root-cause analysis
+- Operational performance analysis
+- Customer and product segmentation
+- Business insight generation
+- Strategic recommendation development
+
+## Data Analytics
+
+- Data cleaning and validation
+- Data modeling
+- Star-schema design
+- KPI development
+- Trend analysis
+- Comparative analysis
+- Performance benchmarking
+- Executive dashboard design
+
+## Technical Skills
+
+- Power BI
+- DAX
+- Python
+- Faker
+- Microsoft Excel
+- Git
+- GitHub
+- SQL *(next project phase)*
+---
+
+# 🔮 Future Enhancements
+
+- Add SQL-based business analysis using the same NovaTech dataset
+- Build advanced queries using CTEs, joins, subqueries, and window functions
+- Develop automated data-refresh workflows
+- Add forecasting for ticket volume and customer demand
+- Create anomaly detection for SLA breaches and ticket escalations
+- Build a detailed data dictionary and technical documentation
+- Add a recruiter-ready project presentation
+
+---
+
+# 👩‍💻 Author
+
+**Sunnica Biswas**
+
+Aspiring Business Analyst and Data Analyst with experience in pharmacovigilance and growing expertise in Power BI, SQL, Python, Excel, DAX, business intelligence, and customer-experience analytics.
 
