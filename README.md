@@ -126,7 +126,9 @@ The solution follows an end-to-end analytics workflow, beginning with business r
 
 The solution uses a star-schema-oriented relational model centered on support-ticket activity, customer interactions, and customer subscriptions.
 
-![NovaTech Data Model](08_Documentation/NovaTech_Data_Model.png)
+<p align="center">
+  <img src="08_Documentation/NovaTech_Data_Model.png" width="750"/>
+</p>
 
 ### Modeling Approach
 
