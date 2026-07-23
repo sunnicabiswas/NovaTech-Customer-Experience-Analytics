@@ -139,31 +139,87 @@ The project consists of four interactive dashboards designed for different busin
 
 ## 📊 Dashboard 1 – Executive Overview
 
-Provides a high-level overview of customer support operations, highlighting ticket trends, SLA compliance, customer satisfaction, and operational KPIs.
+### 🎯 Purpose
 
-*(Dashboard screenshot will be added here.)*
+Provides executive leadership with a comprehensive view of customer support operations, enabling real-time monitoring of service performance, customer satisfaction, and operational efficiency.
 
----
+### 📌 Key KPIs
 
-## 👥 Dashboard 2 – Operational Performance Analysis
+- Total Customers
+- Total Support Tickets
+- SLA Compliance
+- Customer Satisfaction (CSAT)
+- Average Resolution Time
+- First Contact Resolution
 
-Evaluates support agent productivity, resolution efficiency, first response time, SLA performance, and customer satisfaction.
+### 📈 Business Value
 
-*(Dashboard screenshot will be added here.)*
+This dashboard helps leadership monitor operational performance, identify emerging support trends, and quickly detect service bottlenecks requiring attention.
+
+![Dashboard 1](06_Dashboard_Screenshots/Dashboard_1_Executive_Overview.png)
+
+## 👨‍💼 Dashboard 2 – Operational Performance Analysis
+
+### 🎯 Purpose
+
+Evaluates support team productivity by measuring agent performance, response efficiency, resolution effectiveness, and customer satisfaction.
+
+### 📌 Key KPIs
+
+- Average Tickets per Agent
+- Average Resolution Time
+- First Response Time
+- SLA Compliance
+- Customer Satisfaction (CSAT)
+
+### 📈 Business Value
+
+Enables managers to identify top-performing agents, optimize workload distribution, and improve operational efficiency through data-driven performance monitoring.
+
+![Dashboard 2](06_Dashboard_Screenshots/Dashboard_2_Operational_Performance.png)
 
 ---
 
 ## 😊 Dashboard 3 – Customer Insights & Satisfaction
 
-Analyzes customer behavior, acquisition trends, customer segments, interaction patterns, and satisfaction metrics.
+### 🎯 Purpose
 
-*(Dashboard screenshot will be added here.)*
+Analyzes customer behavior, interaction patterns, customer segmentation, acquisition trends, and overall satisfaction levels.
+
+### 📌 Key KPIs
+
+- Open Tickets
+- Escalation Rate
+- Reopened Tickets
+- Interactions per Ticket
+
+### 📈 Business Value
+
+Supports customer-centric decision-making by identifying high-demand customer segments, improving engagement strategies, and monitoring satisfaction trends.
+
+![Dashboard 3](06_Dashboard_Screenshots/Dashboard_3_Customer_Insights.png)
 
 ---
 
 ## 🚀 Dashboard 4 – Product Quality & Strategic Insights
 
-Identifies product-level operational risks by analyzing escalations, ticket reopen rates, SLA compliance, issue categories, and service quality.
+### 🎯 Purpose
 
-*(Dashboard screenshot will be added here.)*
+Evaluates product performance by analyzing service quality, ticket escalations, SLA compliance, reopen rates, and issue category trends.
+
+### 📌 Key KPIs
+
+- Critical Tickets
+- Escalated Tickets
+- Reopened Tickets
+- Reopen Rate
+- Product-wise SLA Compliance
+- Product-wise CSAT
+
+### 📈 Business Value
+
+Helps leadership identify high-risk products, prioritize quality improvements, reduce customer escalations, and strengthen long-term product reliability.
+
+![Dashboard 4](06_Dashboard_Screenshots/Dashboard_4_Product_Quality_Strategic_Insights.png)
+
 
