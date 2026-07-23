@@ -208,5 +208,62 @@ Evaluates product performance by analyzing service quality, ticket escalations, 
 Helps leadership identify high-risk products, prioritize quality improvements, reduce customer escalations, and strengthen long-term product reliability.
 
 ![Dashboard 4](06_Dashboard_Screenshots/Dashboard_4_Product_Quality_Strategic_Insights.png)
+---
+
+# 📌 Key Performance Indicators
+
+| KPI | Business Purpose |
+|---|---|
+| **Total Support Tickets** | Measures overall customer-support demand |
+| **SLA Compliance %** | Tracks adherence to agreed service commitments |
+| **Average Resolution Time** | Measures how quickly customer issues are resolved |
+| **Average First Response Time** | Evaluates the speed of initial customer support |
+| **Average CSAT** | Measures customer satisfaction with support outcomes |
+| **First Contact Resolution %** | Tracks issues resolved during the first interaction |
+| **Escalation %** | Identifies cases requiring higher-level intervention |
+| **Reopened %** | Measures the effectiveness of the initial resolution |
+| **Interactions per Ticket** | Evaluates the effort required to resolve each issue |
+| **Tickets per Agent** | Supports workload and productivity analysis |
+---
+
+# 💡 Key Business Insights
+
+- NovaTech processed **5,000 support tickets** across its customer-support operations.
+- Overall **SLA compliance was approximately 32.9%**, indicating a substantial gap against expected service-performance levels.
+- Customer satisfaction remained comparatively strong, with an overall **average CSAT of approximately 4.26 out of 5**.
+- The overall **ticket reopen rate was 14.4%**, suggesting opportunities to improve first-time resolution quality.
+- Approximately **8.1% of tickets were escalated**, demonstrating a need to strengthen frontline issue resolution and product-support expertise.
+- Enterprise customers generated the largest share of ticket demand, followed by SMB and startup customers.
+- Customer acquisition increased from 2023 to 2024 before declining during 2025.
+- Product-level analysis showed meaningful differences in SLA compliance, escalation rates, reopen rates, and resolution times.
+- Higher-volume issue categories—including login and authentication, performance, and billing-related issues—represent strong candidates for root-cause reduction initiatives.
+- Agent-level differences in ticket handling, CSAT, response time, and resolution time indicate opportunities for targeted coaching and workload balancing.
+---
+
+# 🚀 Business Recommendations
+
+1. **Prioritize SLA recovery initiatives**  
+   Investigate the causes of delayed response and resolution, establish product-specific SLA monitoring, and introduce early-warning alerts for at-risk tickets.
+
+2. **Improve first-contact resolution**  
+   Develop stronger troubleshooting guides, knowledge-base articles, and agent training for recurring issue categories.
+
+3. **Target high-reopen products**  
+   Conduct root-cause analysis on products with elevated reopen rates and involve product-development teams in permanent corrective actions.
+
+4. **Reduce avoidable escalations**  
+   Review escalation reasons and strengthen frontline agent authority, technical knowledge, and access to resolution resources.
+
+5. **Balance agent workloads**  
+   Use ticket volumes, resolution time, SLA performance, and CSAT together when allocating cases and identifying coaching needs.
+
+6. **Automate recurring support issues**  
+   Introduce self-service workflows, guided troubleshooting, and automated responses for frequently occurring login, billing, and product-access issues.
+
+7. **Strengthen customer-segment strategies**  
+   Design differentiated support models for Enterprise, SMB, and Startup customers based on their volume and interaction patterns.
+
+8. **Establish continuous product-quality reviews**  
+   Share product-level ticket, escalation, and reopen trends with engineering and product-management teams through recurring service-quality reviews.
 
 
