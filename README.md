@@ -306,58 +306,87 @@ Helps leadership identify high-risk products, prioritize corrective actions, red
 NovaTech-Customer-Experience-Analytics/
 │
 ├── README.md
-├── 01_Project_Overview/
-├── 02_Dataset/
-├── 03_SQL/
-├── 04_Python/
+├── 01_Project_Overview/              # Business problem, objectives, charter, BRD
+├── 02_Dataset/                       # Source and generated datasets
+├── 03_SQL/                           # SQL analysis scripts
+├── 04_Python/                        # Synthetic data-generation scripts
 │   ├── 01_Scripts/
 │   └── 03_Datasets/
-├── 05_PowerBI/
+├── 05_PowerBI/                       # Power BI report and PDF export
 │   ├── NovaTech_Customer_Experience_Dashboard.pbix
 │   └── NovaTech_Customer_Experience_Analytics_Dashboard.pdf
-├── 06_Dashboard_Screenshots/
+├── 06_Dashboard_Screenshots/         # Dashboard preview images
 │   ├── Dashboard_1_Executive_Overview.png
 │   ├── Dashboard_2_Operational_Performance.png
 │   ├── Dashboard_3_Customer_Insights.png
 │   └── Dashboard_4_Product_Quality_Strategic_Insights.png
-├── 07_Presentation/
-└── 08_Documentation/
+├── 07_Presentation/                  # Recruiter-ready presentation
+└── 08_Documentation/                 # Data model and technical documentation
+    ├── NovaTech_Data_Model.md
+    └── NovaTech_Data_Model.png
+```
+
+---
+
+# 🛠️ Technology Stack
+
+| Technology | Application in the Project |
+|---|---|
+| **Power BI** | Data modeling, DAX calculations, interactive dashboards, and executive reporting |
+| **DAX** | KPI development, percentage calculations, time-based analysis, and performance measures |
+| **Python** | Synthetic data generation and dataset preparation |
+| **Faker** | Creation of realistic customer, ticket, agent, and interaction records |
+| **Microsoft Excel** | Data validation, review, and preprocessing |
+| **SQL** | Business-query analysis and interview-style problem solving |
+| **Git** | Local version control and change tracking |
+| **GitHub** | Project publishing, documentation, and portfolio presentation |
 
 # 🧠 Skills Demonstrated
 
-## Business Analysis
+## 💼 Business Analysis
 
 - Business problem definition
-- Stakeholder-focused KPI selection
-- Business requirements documentation
+- Stakeholder-focused requirement analysis
+- Business Requirements Document preparation
+- KPI identification and definition
 - Root-cause analysis
 - Operational performance analysis
 - Customer and product segmentation
 - Business insight generation
 - Strategic recommendation development
 
-## Data Analytics
+## 📊 Data Analytics
 
 - Data cleaning and validation
-- Data modeling
-- Star-schema design
-- KPI development
+- Exploratory and comparative analysis
 - Trend analysis
-- Comparative analysis
 - Performance benchmarking
-- Executive dashboard design
+- Customer-behavior analysis
+- SLA and service-quality analysis
+- Agent-productivity analysis
+- Executive dashboard storytelling
 
-## Technical Skills
+## 🧩 Data Modeling
+
+- Star-schema design
+- Fact and dimension table identification
+- One-to-many relationship design
+- Single-direction filter configuration
+- Ambiguous relationship resolution
+- Bridge-table usage
+- Disconnected reference-table handling
+
+## 💻 Technical Skills
 
 - Power BI
 - DAX
 - Python
 - Faker
 - Microsoft Excel
+- SQL
 - Git
 - GitHub
-- SQL *(next project phase)*
----
+- Markdown documentation
 
 # 🔮 Future Enhancements
 
